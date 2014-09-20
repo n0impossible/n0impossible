@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteRule ^(.*)$ /n0impossible/index.php/$1 [L]
+
+#in production remove /n0impossible
